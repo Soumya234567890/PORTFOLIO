@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(201, 189, 189); 
+    /* width: 434px; */
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+}
+.sidebar nav{
+    padding: 40px;
+    
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 20px;
+    padding: 33px 0 ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sidebar nav li a:hover{
+   color: dodgerblue;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    
+   
+}
+.infoContainer{
+    /* background-color:rgb(248, 248, 128); */
+    height: 60vh;
+    width:80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    width: 370px;
+    height: 60vh;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-family: "Source Code Pro", monospace;
+    font-size: 3em;
+    margin-left: 12px;
+
+}
+.name{
+    font-family: "Source Code Pro", monospace;
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 12px;
+    
+}
+.about{
+    font-family: "Source Code Pro", monospace;
+    font-size: 3em;
+    margin-left: 12px;
+    
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 25px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin:0 4px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+    padding: 6px 12px;
+    margin: 12px 0;
+    font-size: 15px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: "Source Code Pro", monospace;
+    margin:  98px;
+    
+}
+.contactform h1{
+    font-family: "Roboto Slab", serif;
+    padding: 12px 0;
+    
+
+}
+
+.contactform  form div{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform  form div input{
+    width: 16vw;
+    border-radius: 6px;
+    margin: 6px 0;
+    padding: 3px;
+
+    
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px;
+
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 28px;
+    padding: 2px 0;
+    margin: 3px 0;
+
+}
+.aboutContainer h1 {
+   text-align: center;
+   font-weight: 300;
+   margin: 15px;
+   
+}
+.aboutContainer p{
+    font-size: 23px;
+}
+.aboutContainer .skills ul li{
+    list-style-type: none;
+    font-size: 25px;
+}
+.skills h2{
+    text-align: center;
+}
+.blogItem{
+    margin:20px;
+    font-family: "Source Code Pro", monospace;
+
+    
+}
+.blogContainer h1{
+    font-family: "Kalam", cursive;
+    margin: 23px;
+
+   
+}
+.blogItem p{
+    font-family: "Kalam", cursive;
+    
+}
+h1 {
+    font-family: "Kalam", cursive;
+
+}
+p{
+    font-family: "Kalam", cursive;
+}
+.intro{
+    margin-top: 22px ;
+}
+.intro h2{
+    font-family: "Kalam", cursive;
+    margin:12px;
+    
+}
+ 
+.intro p{
+    font-family: "Kalam", cursive;
+    margin:12px;
+
+}
+.skillContainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+.hundred{
+    width: 265px;
+    background-color: aquamarine;
+}
+ 
+.fifty{
+    width: 125px;
+    background-color: darkgoldenrod;
+}
+ 
+.twenty-five{
+    width: 75px;
+    background-color: darkred;
+
+}
+.sidebarGo{
+    transform: translate(-283px, 0px);
+    position: absolute;
+}
+.projectContainer ul li{
+    list-style-type:none;
+    padding: 10px;
+    margin: 5px;
+    font-family: "Kalam", cursive;
+}
+.main{
+    padding: 23px;
+}
+.hamBurger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Cross{
+    margin-left: 100px;
+    color: black;
+}
+.Cross:hover{
+    cursor: pointer;
+    background-color: aqua;
+    
+}
+/* @media (min-width: 763px) and (max-width: 1615px) {
+    .devPic{
+        display: none;
+    }
+    
+  }
+   */
+.servicesContainer{
+    padding: 12px;
+    text-align: center;
+    font-family: "Kalam", cursive;
+
+}
